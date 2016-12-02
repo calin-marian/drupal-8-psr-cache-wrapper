@@ -1,1 +1,1 @@
-# drupal-8-psr-cache-wrapper
+# drupal-8-psr-adapter
