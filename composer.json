@@ -1,0 +1,25 @@
+{
+  "name": "calin-marian/drupal8-psr6-adapter",
+  "description": "A PSR-6 adapter for Drupal 8 cache system",
+  "homepage": "https://github.com/calin-marian/drupal8-psr6-adapter",
+  "require": {
+    "fig/cache-util": "^1.0@dev"
+  },
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Calin Marian",
+      "email": "calin.djuricin@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/calin-marian/drupal8-psr6-adapter/issues",
+    "source": "https://github.com/calin-marian/drupal8-psr6-adapter"
+  },
+  "autoload": {
+    "psr-4": {
+      "DrupalPsr\\Cache\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
